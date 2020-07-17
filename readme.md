@@ -10,7 +10,7 @@ For install doku java library, add depedency to your pom :
 ```
 <dependency>
     <groupId>com.doku</groupId>
-    <artifactId>sdk</artifactId>
+    <artifactId>library</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 </dependency>
 ```
