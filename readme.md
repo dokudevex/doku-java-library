@@ -2,7 +2,7 @@
 This Library use for merchant who want to integrate with DOKU
 
 ## Generate Payment Code
-In this article tell about how to use class in doku java library to generate payment code
+This part telling about how to generate payment code
 
 ### 1. Install Doku java library
 For install doku java library, add depedency to your pom : 
@@ -124,13 +124,15 @@ PaymentCodeRequestDto.builder()
 
 PaymentCodeResponseDto paymentCodeResponseDto = new GeneratePaycodeServices().generateMandiri(setupConfiguration, paymentCodeRequestDto);
 ```
+## Notify Payment
+This part telling about how to recieve notification
 
-### 2. Request 
+### 1. Request 
 In notify process merchant create notify endpoint that use class NotifyRequestDto prepared by doku, this endpoint will hit by doku.
 
 
 
-### 3. Response 
+### 2. Response 
 After hit by Doku, merchant must return response. Response format can use NotifyResponseDto class.
 ```
 import com.doku.sdk.dto.notify.response.*;
