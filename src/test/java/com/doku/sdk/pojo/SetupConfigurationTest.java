@@ -11,7 +11,7 @@ class SetupConfigurationTest {
     private final String clientId = "ClientIdNyaDoku";
     
     @Test
-    public void setupConfigurationPROD() {
+    void setupConfigurationPROD() {
         SetupConfiguration setupConfiguration = SetupConfiguration
                 .builder()
                 .merchantName(merchantName)
@@ -28,7 +28,7 @@ class SetupConfigurationTest {
     }
 
     @Test
-    public void setupConfigurationSANDBOX() {
+    void setupConfigurationSANDBOX() {
         SetupConfiguration setupConfiguration = SetupConfiguration
                 .builder()
                 .merchantName(merchantName)

@@ -5,10 +5,10 @@ import com.doku.sdk.dto.notify.response.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class NotifyRequestDtoTest {
+class NotifyRequestDtoTest {
 
     @Test
-    public void buildRequestAndResponseNotify() {
+    void buildRequestAndResponseNotify() {
 
         ClientRequestDto clientRequestDto = new ClientRequestDto();
         clientRequestDto.setId("MCH-DOKU-123");

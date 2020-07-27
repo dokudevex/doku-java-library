@@ -18,7 +18,7 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import java.io.IOException;
 
 //Sebagai Bean agar bisa mengakes bean
-public class PaymentCodeRequestDtoTest {
+class PaymentCodeRequestDtoTest {
 
     @MockBean
     MandiriClient mandiriClientMock;
@@ -41,7 +41,7 @@ public class PaymentCodeRequestDtoTest {
     MockWebServer server = new MockWebServer();
 
     @BeforeEach
-    public void createVariable() throws IOException {
+    void createVariable() throws IOException {
 
         // Data Request
         String email = "email.email.com";
@@ -101,7 +101,7 @@ public class PaymentCodeRequestDtoTest {
 
 
     @Test
-    public void generatePaycodeMandiri() throws IOException {
+    void generatePaycodeMandiri() throws IOException {
 
         server.start(9393);
 
@@ -127,7 +127,7 @@ public class PaymentCodeRequestDtoTest {
     }
 
     @Test
-    public void generatePaycodeMandiriSyariah() throws IOException {
+    void generatePaycodeMandiriSyariah() throws IOException {
 
         server.start(9397);
 
