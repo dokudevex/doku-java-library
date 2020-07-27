@@ -13,7 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>devex-doku-java-library</name>
     <description>Demo project for Spring Boot</description>
-    <url>https://github.com/dexecutor/dependent-tasks-executor</url>
+    <url>https://github.com/dokudevex/doku-java-library</url>
 
     <properties>
         <java.version>1.8</java.version>
@@ -135,7 +135,6 @@
                         <checkModificationExclude>target/deploy/**</checkModificationExclude>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
-
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
                 <executions>
@@ -238,9 +237,9 @@
     </build>
 
     <scm>
-        <connection>scm:git:git://github.com/dexecutor/dependent-tasks-executor.git</connection>
-        <developerConnection>scm:git:git@github.com:dexecutor/dexecutor.git</developerConnection>
-        <url>https://github.com/dexecutor/dependent-tasks-executor</url>
+        <connection>scm:git:git://github.com/dokudevex/doku-java-library.git</connection>
+        <developerConnection>scm:git:git@github.com:dokudevex/doku-java-library.git</developerConnection>
+        <url>https://github.com/dokudevex/doku-java-library</url>
         <tag>HEAD</tag>
     </scm>
 
